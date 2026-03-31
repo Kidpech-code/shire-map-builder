@@ -2,6 +2,8 @@
 
 **Isometric map editor สำหรับสร้างแผนที่ fantasy แบบ Shire theme**
 
+**Live Demo:** https://kidpech-code.github.io/shire-map-builder/
+
 Shire Map Builder คือเว็บแอปสำหรับออกแบบแผนที่แบบ isometric ผ่านระบบ tile-based grid โดยเน้นประสบการณ์ใช้งานที่เรียบง่ายแต่พร้อมต่อยอดสำหรับงานจริง ผู้ใช้สามารถเลือก asset ธีม Shire จากหลายหมวดหมู่แล้วนำมาวางบนแผนที่ได้ทันที พร้อมความสามารถสำคัญอย่าง undo/redo, pan/zoom, import/export JSON และดาวน์โหลดแผนที่เป็น PNG เพื่อใช้ต่อในงานเกม งานเล่าเรื่อง งาน worldbuilding หรือใช้เป็นต้นแบบสำหรับพัฒนา map editor ในโปรเจกต์อื่น
 
 โปรเจกต์นี้เหมาะทั้งในฐานะเครื่องมือสร้างแผนที่ขนาดเล็ก และในฐานะตัวอย่างสถาปัตยกรรม frontend ที่ผสาน React, PixiJS, Zustand และ TypeScript เข้าด้วยกันอย่างชัดเจน โดยแยก concerns ระหว่าง UI, state management, asset catalog และ isometric math ออกจากกัน ทำให้แก้ไข เพิ่ม theme ใหม่ หรือแตกต่อเป็นระบบที่ซับซ้อนขึ้นได้ง่าย

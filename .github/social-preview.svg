@@ -1,0 +1,112 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="94" y1="72" x2="1172" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183A2F"/>
+      <stop offset="0.56" stop-color="#29533A"/>
+      <stop offset="1" stop-color="#E8D7B4"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="248" y1="114" x2="1048" y2="526" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4E8CC" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#E8DAB8" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="tileTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#C5A86A"/>
+      <stop offset="1" stop-color="#A88346"/>
+    </linearGradient>
+    <linearGradient id="grassTop" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#95C46B"/>
+      <stop offset="1" stop-color="#5C8E47"/>
+    </linearGradient>
+    <linearGradient id="grassLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4E7B39"/>
+      <stop offset="1" stop-color="#406530"/>
+    </linearGradient>
+    <linearGradient id="grassRight" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6A9B4D"/>
+      <stop offset="1" stop-color="#507A3C"/>
+    </linearGradient>
+    <filter id="shadow" x="174" y="66" width="932" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="26"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.14902 0 0 0 0 0.117647 0 0 0 0.24 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <g opacity="0.22" stroke="#E8DAB8" stroke-width="1.5">
+    <path d="M88 212L280 116L472 212L280 308L88 212Z"/>
+    <path d="M252 294L444 198L636 294L444 390L252 294Z"/>
+    <path d="M492 160L684 64L876 160L684 256L492 160Z"/>
+    <path d="M744 274L936 178L1128 274L936 370L744 274Z"/>
+    <path d="M860 482L1052 386L1244 482L1052 578L860 482Z"/>
+    <path d="M32 458L224 362L416 458L224 554L32 458Z"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="226" y="100" width="828" height="396" rx="34" fill="url(#panel)"/>
+  </g>
+
+  <g opacity="0.12">
+    <path d="M226 392C324 328 410 314 510 334C607 353 696 412 795 404C889 396 956 324 1054 260V496H226V392Z" fill="#2E5B40"/>
+    <path d="M226 432C313 384 391 370 482 390C569 409 653 459 751 456C850 452 941 397 1054 322V496H226V432Z" fill="#4D8456"/>
+  </g>
+
+  <g>
+    <path d="M287 441L382 393L477 441L382 489L287 441Z" fill="url(#grassTop)"/>
+    <path d="M287 441L382 489V524L287 476V441Z" fill="url(#grassLeft)"/>
+    <path d="M477 441L382 489V524L477 476V441Z" fill="url(#grassRight)"/>
+
+    <path d="M382 346L435 373L382 400L329 373L382 346Z" fill="#355E36"/>
+    <path d="M382 324L418 346L382 365L346 346L382 324Z" fill="#467D42"/>
+    <path d="M382 304L407 322L382 335L357 322L382 304Z" fill="#5D9651"/>
+    <path d="M374 374H390V431H374V374Z" fill="#6B4A2A"/>
+
+    <path d="M421 411L452 395L483 411L452 427L421 411Z" fill="#C45F32"/>
+    <path d="M432 401L452 389L472 401L452 413L432 401Z" fill="#D87B43"/>
+    <path d="M437 413H467V447H437V413Z" fill="#F3E7C7"/>
+    <path d="M447 423H457V447H447V423Z" fill="#8B6339"/>
+    <circle cx="456" cy="430" r="2.5" fill="#E3B36E"/>
+  </g>
+
+  <g>
+    <path d="M826 454L916 408L1006 454L916 500L826 454Z" fill="url(#tileTop)"/>
+    <path d="M826 454L916 500V530L826 484V454Z" fill="#8D6A39"/>
+    <path d="M1006 454L916 500V530L1006 484V454Z" fill="#A47C42"/>
+
+    <path d="M883 410L916 393L949 410L916 427L883 410Z" fill="#5D8F46"/>
+    <path d="M891 394L916 382L941 394L916 406L891 394Z" fill="#79AE60"/>
+    <path d="M909 408H923V452H909V408Z" fill="#6B4A2A"/>
+  </g>
+
+  <g fill="#244533">
+    <circle cx="272" cy="146" r="7"/>
+    <circle cx="994" cy="160" r="7"/>
+    <circle cx="1008" cy="146" r="4"/>
+    <circle cx="966" cy="150" r="4"/>
+  </g>
+
+  <text x="336" y="212" fill="#1F3B2F" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="3.5">FANTASY ISOMETRIC WORLD TOOLKIT</text>
+  <text x="336" y="292" fill="#153326" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Shire Map Builder</text>
+  <text x="336" y="346" fill="#335944" font-family="Helvetica, Arial, sans-serif" font-size="27">Design hand-crafted isometric maps with themed tiles, layered placement, and export-ready scenes.</text>
+
+  <g>
+    <rect x="336" y="392" width="122" height="42" rx="21" fill="#224736"/>
+    <text x="366" y="420" fill="#F3E7C7" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">React</text>
+
+    <rect x="470" y="392" width="124" height="42" rx="21" fill="#3E6E49"/>
+    <text x="497" y="420" fill="#F7EED7" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">PixiJS</text>
+
+    <rect x="606" y="392" width="138" height="42" rx="21" fill="#B67F3D"/>
+    <text x="631" y="420" fill="#FFF7E5" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Zustand</text>
+
+    <rect x="756" y="392" width="166" height="42" rx="21" fill="#73552C"/>
+    <text x="781" y="420" fill="#FFF2D8" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">TypeScript</text>
+  </g>
+
+  <text x="337" y="462" fill="#436850" font-family="Helvetica, Arial, sans-serif" font-size="21">Tile-based editor • Undo / Redo • PNG export • JSON import/export</text>
+</svg>
