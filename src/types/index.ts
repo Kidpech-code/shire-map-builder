@@ -26,7 +26,7 @@ export interface TileAsset {
   col: number;
   /** Human-readable display name */
   name: string;
-  /** Path to the PNG image relative to public root, e.g. "/tiles/shire/r0-c0.png" */
+  /** Resolved public asset URL, e.g. "/shire-map-builder/tiles/shire/r0-c0.png" in production */
   path: string;
 }
 

@@ -7,6 +7,8 @@
 
 import type { TileAsset, AssetCategory } from '../types';
 
+const tileBasePath = `${import.meta.env.BASE_URL}tiles/shire`;
+
 /** Helper to build a TileAsset entry */
 function tile(
   row: number,
@@ -20,7 +22,7 @@ function tile(
     row,
     col,
     name,
-    path: `/tiles/shire/r${row}-c${col}.png`,
+    path: `${tileBasePath}/r${row}-c${col}.png`,
   };
 }
 
